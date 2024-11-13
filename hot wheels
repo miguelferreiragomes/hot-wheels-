@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - Hot Wheels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff473d; /* Cor temática */
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .video {
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #fff;
+            max-width: 300px;
+        }
+        .video img {
+            width: 100%;
+        }
+        .video-title {
+            padding: 10px;
+            text-align: center;
+        }
+        .video-iframe {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos - Hot Wheels</h1>
+    <div class="video-container">
+        <!-- Exemplo de vídeo 1 -->
+        <div class="video">
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/seu_video_aqui_1" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Título do Vídeo 1</div>
+        </div>
+
+        <!-- Exemplo de vídeo 2 -->
+        <div class="video">
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/seu_video_aqui_2" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Título do Vídeo 2</div>
+        </div>
+
+        <!-- Exemplo de vídeo 3 -->
+        <div class="video">
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/seu_video_aqui_3" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Título do Vídeo 3</div>
+        </div>
+
+        <!-- Adicione mais vídeos conforme necessário -->
+    </div>
+</body>
+</html>
